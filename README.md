@@ -2,6 +2,10 @@
 
 ## Run the project on local Machine
 
+Clone the code:
+
+###   `git clone https://github.com/avalanche557/assignment.git`
+
 Install node modules:
 
 ### `npm install`
