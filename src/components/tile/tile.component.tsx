@@ -85,7 +85,7 @@ const Tile: FC<TileProps> = (props): JSX.Element => {
                     <div className="blankSpace"></div>
                 }
                 {props.subHeader !== "" ?
-                    <div className="innerHeader">
+                    <div className="innerSubHeader">
                         {typeof props.subHeader === 'number' ?
                             <CountUp
                                 start={0}
@@ -95,7 +95,7 @@ const Tile: FC<TileProps> = (props): JSX.Element => {
                                 suffix={props.counterPrefix}
                             />
                             :
-                            <span>
+                            <span >
                                 {props.subHeaderIsUrl === true ?
                                     <a href="#" className="link">{props.subHeader}</a>
                                     :
