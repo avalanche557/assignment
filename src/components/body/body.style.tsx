@@ -21,6 +21,7 @@ export const StyledBody = styled.div`
         background-repeat: no-repeat, repeat;
         flex-flow: column nowrap;
         padding-bottom: 100px;
+        z-index: -100;
     }
 
     .mainImage {

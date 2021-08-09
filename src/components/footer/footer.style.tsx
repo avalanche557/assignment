@@ -20,9 +20,10 @@ export const Footerdiv = styled.div<props>`
     justify-content: space-between;
 
     .RightIcon{
-        height: 35px;
+        width: 10%;
+        height: 50%;
         padding: 10px;
-        object-fit: cover;
+        object-fit: fit;
     }
 
     .MiddleIcon{

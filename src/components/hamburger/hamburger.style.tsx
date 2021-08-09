@@ -1,5 +1,5 @@
 /*
-* Component Discription: Style for hambrger menu.
+* Component Discription: Style for hambrger.
 * props: {
     none
 }
